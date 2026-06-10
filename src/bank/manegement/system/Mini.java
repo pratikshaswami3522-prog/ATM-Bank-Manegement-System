@@ -11,10 +11,7 @@ public class Mini extends JFrame implements ActionListener {
     JButton button;
     Mini(String pin){
         this.pin = pin;
-//        getContentPane().setBackground(new Color(255,204,204));
-//        setSize(400,600);
-//        setLocation(20,20);
-//        setLayout(null);
+
 
         JLabel label1 = new JLabel();
         label1.setBounds(20,140,400,200);
